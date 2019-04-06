@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="weiß">#ffffff</color>
+    <color name="grau">#565656</color>
+    <color name="hellgrau">#E7E7E7</color>
+    <color name="schwarz">#000000</color>
+    <color name="ausgewaehlt">#b6bfbfbf</color>
+
+    <color name="rot">#960000</color>
+
+    <color name="orange">#FFA726</color>
+    <color name="detail">#676767</color>
+
+    <color name="transparent">#00696969</color>
+    <color name="blau">#275577</color>
+    <color name="hellblau">#aabcca</color>
+    <color name="braun">#574d54</color>
+
+    <color name="startDatum">#394046</color>
+    <color name="startTransparent">#b7394046</color>
+    <color name="startTransparenter">#5e394046</color>
+
+    <color name="hintergrund">#ffffff</color>
+    <color name="wochentageSchriftFarbe">#000000</color>
+    <color name="schriftFarbe">#ffffff</color>
+</resources>

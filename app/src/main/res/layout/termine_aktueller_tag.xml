@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="@color/ausgewaehlt"
+    android:padding="6dip">
+
+    <TextView
+        android:id="@+id/farbe_Des_Termins"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="6dip"/>
+
+    <TextView
+        android:id="@+id/txt_Beschreibung_Termin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/farbe_Des_Termins"
+        android:text="Beschreibung"
+        android:textColor="@color/startDatum"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_Titel_Termin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_above="@id/txt_Beschreibung_Termin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/farbe_Des_Termins"
+        android:fontFamily="@font/chunkfive"
+        android:gravity="center_vertical"
+        android:text="Titel"
+        android:textColor="@color/startDatum"
+        android:textSize="16sp" />
+
+</RelativeLayout>

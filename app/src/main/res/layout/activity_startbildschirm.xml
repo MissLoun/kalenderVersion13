@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cvf">
+
+
+    <ImageView
+        android:id="@+id/image_Startbildschirm"
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/startTransparent" />
+
+    <TextView
+        android:id="@+id/txt_Startbildschirm_Begrueßung"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/image_Startbildschirm"
+        android:layout_centerHorizontal="true"
+
+        android:fontFamily="@font/heavenlyscript"
+        android:text="@string/gutenMorgen"
+        android:textColor="@color/weiß"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/txt_Startbildschirm_HeuteIst"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/image_Startbildschirm"
+        android:layout_centerHorizontal="true"
+
+        android:fontFamily="@font/chunkfive"
+        android:text="@string/heuteIst"
+        android:textColor="@color/weiß" />
+
+    <TextView
+        android:id="@+id/txt_Startbildschirm_Datum"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/txt_Startbildschirm_HeuteIst"
+        android:layout_centerHorizontal="true"
+        android:background="@color/startDatum"
+
+        android:fontFamily="@font/chunkfive"
+
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="01.04.2019"
+        android:textColor="@color/weiß"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_Startbildschirm_ZuEinstellungen"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/txt_Startbildschirm_Datum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/chunkfive"
+        android:gravity="center"
+        android:padding="20dp"
+        android:shadowColor="#000000"
+
+        android:shadowDx="5"
+        android:shadowDy="0"
+        android:shadowRadius="20"
+        android:text="@string/zuEinstellungen"
+        android:textColor="@color/weiß"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_Startbildschirm_ZuKalender"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/btn_Startbildschirm_ZuEinstellungen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/chunkfive"
+
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/zumKalender"
+        android:textColor="@color/weiß"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
